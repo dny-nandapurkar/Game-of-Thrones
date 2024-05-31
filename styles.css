@@ -1,0 +1,272 @@
+.body{
+    font-family: 'Montserrat';
+    
+}
+
+#title{
+    background-color: #080808;
+    color: #fff;
+    text-align: center;
+}
+
+.container-fluid{
+    padding: 3% 5% 0%;
+    background-color: black;
+}
+
+
+
+h1{
+    font: 'Montserrat-black';
+    font-family: 'Montserrat-black', sans-serif;
+    line-height: 1.5;
+    size: 3.5rem;
+    font-weight: 900;
+    padding: 3rem auto;
+    font-size: 70px;
+    color: #fff;
+}
+
+h3{
+    font-family: 'Montserrat-bold';
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 1.5;
+}
+
+
+
+/* navigation-bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Active/current link */
+.navbar-nav a.active {
+    background-color: #d4d7d8;
+    color: rgb(97, 95, 95);
+}
+
+/* signup-button */
+
+.signup-container{
+    padding-right: 2%;
+}
+
+
+/* login-button */
+
+.btn-xl {
+    padding: 7px 30px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 17px 50px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    box-sizing: border-box;
+  }
+  
+ 
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+
+  }
+  
+  img.avatar {
+    width: 20%;
+    border-radius: 80%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+    color: white;
+  }
+
+  .user{
+    padding-right: 3%;
+  }
+  
+
+  .pass{
+    padding-bottom: 2%;
+    padding-right: 3%;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #080808;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #fcf9f9;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+/* Download button */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+/* title image */
+
+.title-image{
+    padding-right: 0%;
+}
+
+.carousel-item{
+    padding: 3% 10%;
+}
+
+.title-container {
+    position: relative;
+    text-align: center;
+    color: black;
+   
+  }
+
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Monserrat-bold';
+    font-weight: 900;
+    color: whitesmoke;
+    size: 3.5rem;
+    line-height: 1.5;
+    padding: 3rem auto;
+    font-size: 70px;
+  }
+
+  #seasons{
+    padding: 5% 5%;
+    background-color: #cfcece;
+  }
+
+  .row{
+    padding-bottom: 3%;
+    padding-left: 3%;
+  }
+
+
+  /* call to action */
+
+#cta{
+    background-color: #080808;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    color: #fff;
+}
+
+
+/* footer */
+
+#footer{
+    background-color: #080808;
+    text-align: center;
+    padding-bottom: 3%;
+    color: grey;
+}
